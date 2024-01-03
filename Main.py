@@ -16,8 +16,8 @@ import json
 # Ignore specific category of warning
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-input_directory = 'C:/Users/trevi/Dropbox/@Trevisan-Ghiani/WIP/PES 2024/PyGAD/Input Files/'
-output_directory = 'C:/Users/trevi/Dropbox/@Trevisan-Ghiani/WIP/PES 2024/PyOmo/Output Files/'
+input_directory = './Input Files/'
+output_directory = './Output Files/'
 
 #Set Seed for results replicability
 np.random.seed(0)
