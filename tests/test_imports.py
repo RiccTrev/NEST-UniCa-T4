@@ -1,4 +1,5 @@
-def import_test(): 
+# tests/test_imports.py
+def test_import(): 
     import ProsumerModel as pyp
     import ConsumerModel as pyc
     import numpy as np
