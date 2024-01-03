@@ -18,7 +18,7 @@ def test_other_impports():
     import numpy as np
     import pandas as pd
     from pathlib import Path
-    import Pyomo
+    import pyomo
     import os
     import pprint
     import functions
